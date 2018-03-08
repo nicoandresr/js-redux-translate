@@ -11,7 +11,7 @@ import translate from 'js-redux-translate';
 
 export default combineReducers({
   -other reducers-,
-  translate('es')
+  translate: translate('es')
 });
 ```
 You note that here you can setting the default language, if you not pass this parameter then the default language is 'en'.

@@ -1,8 +1,8 @@
 {
   "name": "js-redux-translate",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple package for manage the locales with redux",
-  "main": "./dist/index.js",
+  "main": "./umd/index.js",
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir dist && uglifyjs --output umd/index.js -- dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",

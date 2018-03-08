@@ -1,5 +1,5 @@
 // Selector
-export const traslateSelector = (state, locales) => {
+export const translateSelector = (state, locales) => {
   const { translate: { language } } = state;
   return locales[language];
 }
