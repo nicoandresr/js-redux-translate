@@ -57,3 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+# distribution and umd folders
+dist/
+umd/
+
